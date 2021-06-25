@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме «Веб-дизайнер» – Данилова Анастасия</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="wrapper">
+    <section class="top">
+        <!-- Menu -->
+        <div class="menu">
+            <a title="Пролистать страницу к личной информации" class="menu__link" href="#about">Обо мне</a>
+            <a title="Пролистать страницу к моим навыкам" class="menu__link" href="#skills">Навыки</a>
+            <a title="Пролистать страницу к моим работам" class="menu__link" href="#work">Работы</a>
+            <a title="Пролистать страницу к моим контакетам" class="menu__link" href="#contacts">Контакты</a>
+        </div>
+
+        <!-- Hero -->
+        <div class="top__content">
+            <h1 class="top__heading">@DANILOVAANASTYA</h1>
+            <p class="top__text">WEB DESIGNER</p>
+        </div>
+    </section>
+
+    <!-- My info -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__item about__info">
+                    <h2 class="heading">Данилова Анастасия</h2>
+                    <h3 class="about__subtitle">Начинающий веб-дизайнер.</h3>
+                    <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in
+                        reprehenderit in voluptate velit esse cillum.</p>
+                    <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="about__item myphoto">
+                    <img src="image/photo.png" alt="my photo">
+                </div>
+            </div>
+
+            <!-- My skills-->
+            <section class="skills" id="skills">
+                <h2 class="heading">Навыки</h2>
+                <div class="skillscard">
+                    <article class="figma skillscard__item">
+                        <img class="skills__icon" src="image/figma.svg" alt="illustrator">
+                        <h3 class="skills__subtitle">Figma</h3>
+                        <p class="skills__text">Самая популярная программа для разработки интерфейсов</p>
+                    </article>
+                    <article class="tilda skillscard__item">
+                        <img class="skills__icon" src="image/tilda 1.svg" alt="tilda">
+                        <h3 class="skills__subtitle">Tilda</h3>
+                        <p class="skills__text">простой и удобный онлайн-конструктор сайтов</p>
+                    </article>
+                    <article class="illustrator skillscard__item">
+                        <img class="skills__icon" src="image/illustrartor.svg" alt="illustrator">
+                        <h3 class="skills__subtitle">Illustrator </h3>
+                        <p class="skills__text">векторный графический редактор для создания иллюстраций</p>
+                    </article>
+                    <article class="aftereffects skillscard__item">
+                        <img class="skills__icon" src="image/aftereffects.svg" alt="illustrator">
+                        <h3 class="skills__subtitle">After Effects</h3>
+                        <p class="skills__text">программа для создания различных эффектов и анимации</p>
+                    </article>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <!-- My works -->
+    <section class="work" id="work">
+        <div class="container">
+            <h2 class="work__heading">Работы</h2>
+            <p class="work__text">
+                Все работы можно посмотреть по ссылке —
+                <a href=">https://www.behance.net/56486167e56" title="Перейти в мой Behance">
+                    https://www.behance.net/56486167e56
+                </a>
+            </p>
+            <!-- Slider -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <!-- Slider breadcrumbs -->
+                <ul class="carousel-indicators">
+                    <li role="button" aria-label="Перейти к слайду 1" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="0" class="active"></li>
+                    <li role="button" aria-label="Перейти к слайду 2" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1"></li>
+                    <li role="button" aria-label="Перейти к слайду 3" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2"></li>
+                </ul>
+
+                <!-- Slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/slider1.png" class="d-block w-100"
+                             alt="Дизайн сайта для компании «Sup Yoga»"
+                             title="Дизайн сайта для компании «Sup Yoga», предлагающей прогулки на sup-досках">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/slider2.png"
+                             class="d-block w-100"
+                             alt="Дизайн сайта для архитектурной студии «4place»"
+                             title="Дизайн сайта для архитектурной студии «4place»">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/slider3.png"
+                             class="d-block w-100"
+                             alt="Дизайн интернет-магазина «Грибной рынок»"
+                             title="Дизайн интернет-магазина «Грибной рынок», занимающегося продажей мицелия грибов">
+                    </div>
+                </div>
+
+                <!-- Slider control arrows -->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий слайд</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Слкдующий слайд</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="heading">Контакты</h2>
+            <div class="tel">
+                <h3 class="footer__text">Телефон:</h3>
+                <a class="footer__text" href="tel:+79117395124"
+                   title="Позвонить мне">+7(911) 739-51-24</a>
+            </div>
+            <div class="mail">
+                <h3 class="footer__text">Email:</h3>
+                <a class="footer__text" href="mailto:5648616@gmail.com"
+                   title="Написать мне на email">5648616@gmail.com</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
