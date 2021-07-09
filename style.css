@@ -245,4 +245,12 @@ img {
     .menu {
         padding: 36px 16px;
     }
+
+    .about__content {
+        flex-direction: column-reverse;
+    }
+
+    .work__text a {
+        word-break: break-word;
+    }
 }
