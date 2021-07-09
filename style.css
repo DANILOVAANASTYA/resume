@@ -137,6 +137,7 @@ img {
 .skillscard {
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .skills__subtitle {
@@ -225,4 +226,23 @@ img {
 }
 
 @media (max-width: 840px) {
+    .top__heading {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .top__text {
+        font-size: 45px;
+        line-height: 1.2;
+    }
+
+    .menu__link {
+        font-size: 16px;
+        line-height: 1.2;
+        padding: 0 10px;
+    }
+
+    .menu {
+        padding: 36px 16px;
+    }
 }
